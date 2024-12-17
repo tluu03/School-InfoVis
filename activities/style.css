@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#wrapper {
+    display: flex;
+}
+
+#chart {
+    flex: 3;
+}
+
+#sidebar {
+    flex: 1;
+    padding: 10px;
+    border-left: 1px solid #ddd;
+}
+
+.bar:hover {
+    fill: orange;
+}
